@@ -1,0 +1,67 @@
+[
+    {
+        "title": "@@org.joget.marketplace.twiliotool.config@@",
+        "properties": [
+            {
+                "name": "accountSID",
+                "label": "@@org.joget.marketplace.twiliotool.accountSID@@",
+                "type": "textfield",
+                "required": "True"
+            },
+            {
+                "name": "authToken",
+                "label": "@@org.joget.marketplace.twiliotool.authToken@@",
+                "type": "textfield",
+                "required": "True"
+            },
+            {
+                "name": "sendAs",
+                "label": "@@org.joget.marketplace.twiliotool.sendAs@@",
+                "type": "selectbox",
+                "required": "True",
+                "options": [
+                    {
+                        "value": "SMS",
+                        "label": "@@org.joget.marketplace.twiliotool.sms@@"
+                    },
+                    {
+                        "value": "WHATSAPP",
+                        "label": "@@org.joget.marketplace.twiliotool.whatsapp@@"
+                    }
+                ]
+            },
+            {
+                "name": "fromNumber",
+                "label": "@@org.joget.marketplace.twiliotool.fromNumber@@",
+                "type": "textfield",
+                "required": "True"
+            },
+            {
+                "name": "toNumber",
+                "label": "@@org.joget.marketplace.twiliotool.toNumber@@",
+                "type": "textfield",
+                "required": "True"
+            },
+            {
+                "name": "message",
+                "label": "@@org.joget.marketplace.twiliotool.message@@",
+                "type": "textfield",
+                "required": "True"
+            }
+        ]
+    },
+    {
+        "title" : "@@org.joget.marketplace.twiliotool.mediaUrls@@",
+        "properties" : [
+            {
+                "name":"urls",
+                "label":"@@org.joget.marketplace.twiliotool.urls@@",
+                "type":"grid",
+                "columns":[{
+                    "key":"url",
+                    "label":"URL",
+                }]
+            }
+        ]
+    }
+]
