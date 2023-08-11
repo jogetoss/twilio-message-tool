@@ -2,6 +2,7 @@
 
 Twilio Message Tool plugin seamlessly integrates with the powerful Twilio platform, empowering users to effortlessly send both WhatsApp messages and SMS. Plugin configuration allows user to choose the sevice (whatsapp, sms), add media to message and to send message to a single recipient or multiple recipients.
 
+To setup and configure this plugin, please see the documentation at https://dev.joget.org/community/display/marketplace/Twilio+Message+Tool+Plugin
 
 # Getting Help
 
